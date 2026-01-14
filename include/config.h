@@ -1,0 +1,31 @@
+#ifndef _CONFIG_H_
+#define _CONFIG_H_
+
+// chip8 configs
+#define TOTAL_MEMORY_SIZE 4096
+
+#define STACK_SIZE 16
+
+#define NUMBER_OF_REGISTERS 16
+
+#define NUMBER_OF_KEYBOARD_KEYS 16
+
+#define CHARACTER_SET_LOAD_ADRESS 0x000
+
+#define PROGRAM_LOAD_ADRESS 0x200
+
+
+// graphics configs
+#define MAIN_WINDOW_TITLE "CHIP-8 Emulator"
+
+#define SCREEN_WIDTH 64
+
+#define SCREEN_HEIGHT 32
+
+#define CHIP8_WINDOW_SCALER 10
+
+#define MAIN_WINDOW_WIDTH (SCREEN_WIDTH * CHIP8_WINDOW_SCALER)
+
+#define MAIN_WINDOW_HEIGHT (SCREEN_HEIGHT * CHIP8_WINDOW_SCALER)
+
+#endif
