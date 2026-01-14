@@ -109,7 +109,7 @@ int main(int argc, char** argv) {
         SDL_RenderPresent(renderer);
 
         if(chip8.registers.DT > 0) {
-            Sleep(100); // Sleep from Windows.h (100 milliseconds)
+            Sleep(1); // Sleep from Windows.h (milliseconds)
             chip8.registers.DT -= 1;
         }
 
