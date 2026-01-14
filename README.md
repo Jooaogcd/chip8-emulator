@@ -27,6 +27,12 @@ This is a CHIP-8 emulator written in C totally from scratch using the SDL2 libra
    ```bash
    make run
    ```
+4. To run a specific ROM, you can check the `Makefile` and modify the directives accordingly. Or pass the ROM file as a command-line argument for the executable:
+   ```bash
+   ./chip8 path/to/your/rom
+   ```
+
+
 ### Requirements:
 - MINGW GCC compiler
 - GNU Make
