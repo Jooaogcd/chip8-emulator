@@ -9,7 +9,7 @@ This is a CHIP-8 emulator written in C totally from scratch using the SDL2 libra
 
 CHIP-8 is a simple, interpreted programming language developed in the 1970s for creating games on early microcomputers. It features a 4K memory space, 16 general-purpose 8-bit registers, a 16-level stack, and a monochrome display with a resolution of 64x32 pixels. The simplicity of CHIP-8 makes it an excellent choice for learning about emulation and low-level programming concepts.
 
-(The CHIP-8 Wikipedia page)[https://en.wikipedia.org/wiki/CHIP-8] has more information about the architecture and history of CHIP-8.
+[The CHIP-8 Wikipedia Page](https://en.wikipedia.org/wiki/CHIP-8) and [the CHIP-8 Technical Reference](http://devernay.free.fr/hacks/chip8/C8TECH10.HTM) provide more detailed information about the architecture and instruction set of CHIP-8.
 
 ## Features
 - Emulates the CHIP-8 virtual machine
