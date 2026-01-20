@@ -5,6 +5,12 @@ This is a CHIP-8 emulator written in C totally from scratch using the SDL2 libra
 |![](./images/spaceinvaderstitle.png)|![](./images/spaceinvgameplay.png)|![](./images/gameover.png)|
 |-|-|-|
 
+## The CHIP-8 Virtual Machine
+
+CHIP-8 is a simple, interpreted programming language developed in the 1970s for creating games on early microcomputers. It features a 4K memory space, 16 general-purpose 8-bit registers, a 16-level stack, and a monochrome display with a resolution of 64x32 pixels. The simplicity of CHIP-8 makes it an excellent choice for learning about emulation and low-level programming concepts.
+
+(The CHIP-8 Wikipedia page)[https://en.wikipedia.org/wiki/CHIP-8] has more information about the architecture and history of CHIP-8.
+
 ## Features
 - Emulates the CHIP-8 virtual machine
 - Uses SDL2 for rendering graphics and handling input
